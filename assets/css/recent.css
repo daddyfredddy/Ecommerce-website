@@ -1,0 +1,119 @@
+/* styling products */
+
+.recent-products {
+  width: 94%;
+  margin: 0 auto;
+  /* height: 3006px; */
+}
+
+#best {
+  margin-top: 32px;
+  margin-bottom: 47px;
+  margin-left: 74px;
+  width: 202px;
+  height: 26px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: center;
+}
+.group6 {
+  position: relative;
+  left: 109px;
+  top: 135px;
+  width: 131px;
+  height: 80px;
+}
+#name {
+  width: 131px;
+  height: 44px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+#dollars {
+  width: 72px;
+  height: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+
+  position: relative;
+  top: 18px;
+  left: 29px;
+}
+.main-card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 350px;
+  width: 100%;
+  margin-bottom: 19px;
+}
+.furniture {
+  background-image: url(../images/img4.webp);
+}
+.cup {
+  background-image: url(../images/img5.webp);
+}
+.bag {
+  background-image: url(../images/img6.webp);
+}
+.pencil-holder {
+  background-image: url(../images/img7.webp);
+}
+.key-holder {
+  background-image: url(../images/img8.webp);
+}
+.cotton-canvas {
+  background-image: url(../images/img9.webp);
+}
+.kors-original {
+  background-image: url(../images/img10.webp);
+}
+.women-leather {
+  background-image: url(../images/img12.webp);
+}
+
+.group15 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 540px) {
+  .nav-menu {
+    display: none;
+  }
+  .main-card {
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 744px) {
+  .nav-menu {
+    display: none;
+  }
+  .main-card {
+    flex-basis: calc(33.33% - 10px);
+  }
+}
+
+@media (min-width: 744px) {
+  .main-card {
+    flex-basis: calc(25% - 20px);
+  }
+}

@@ -1,0 +1,140 @@
+/* styling blog */
+
+.blog {
+  width: 94%;
+  margin: 0 auto;
+  /* height: 1150px; */
+}
+#news {
+  margin-bottom: 36px;
+  margin-left: 74px;
+  margin-top: 17px;
+  width: 202px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: center;
+}
+.group8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 67px;
+  height: 67px;
+  left: 19px;
+  top: 19px;
+  background: rgba(255, 255, 255, 0.83);
+}
+#day {
+  position: relative;
+  top: -6px;
+  left: 16px;
+  width: 33px;
+  height: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 29px;
+  text-align: center;
+}
+#month {
+  position: relative;
+  top: 14px;
+  left: -15px;
+  width: 33px;
+  height: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+  text-align: center;
+}
+.group9 {
+  position: relative;
+  top: 156px;
+  left: 19px;
+  width: 296px;
+  height: 88px;
+}
+#optimize {
+  width: 296px;
+  height: 41px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.shop-now2 {
+  position: relative;
+  width: 116px;
+  height: 32px;
+  top: 15px;
+
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 33px;
+
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.group19 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.aside-card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 350px;
+  width: 100%;
+  margin-bottom: 19px;
+}
+
+.article1 {
+  background-image: url(../images/img13.jpg);
+}
+.article2 {
+  background-image: url(../images/img14.jpg);
+}
+.article3 {
+  background-image: url(../images/img15.jpg);
+}
+
+/* styling using media queries */
+@media (max-width: 540px) {
+  .nav-menu {
+    display: none;
+  }
+  .aside-card {
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 744px) {
+  .nav-menu {
+    display: none;
+  }
+  .aside-card {
+    flex-basis: calc(50% - 10px);
+  }
+}
+
+@media (min-width: 744px) {
+  .aside-card {
+    flex-basis: calc(33% - 20px);
+  }
+}
