@@ -3,13 +3,17 @@
 .recent-products {
   width: 94%;
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* height: 3006px; */
 }
 
 #best {
   margin-top: 32px;
   margin-bottom: 47px;
-  margin-left: 74px;
   width: 202px;
   height: 26px;
 
@@ -22,7 +26,7 @@
 }
 .group6 {
   position: relative;
-  left: 109px;
+  margin-left: 109px;
   top: 135px;
   width: 131px;
   height: 80px;
@@ -112,7 +116,7 @@
   }
 }
 
-@media (min-width: 744px) {
+@media (min-width: 745px) {
   .main-card {
     flex-basis: calc(25% - 20px);
   }

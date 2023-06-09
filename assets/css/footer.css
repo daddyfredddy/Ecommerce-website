@@ -1,6 +1,6 @@
 /* styling footer */
 
-.footer {
+/* .footer {
   width: 100%;
   height: 480px;
 }
@@ -33,7 +33,7 @@
   top: 123.02px;
   /* margin-bottom: 26px; */
 }
-#location {
+/* #location {
   width: 262px;
   height: 21px;
 }
@@ -59,22 +59,68 @@
   width: 262px;
   height: 23px;
   margin-top: 15px;
-  margin-left: -120px;
+  margin-left: -118px;
 }
-#phone {
-}
+
 #info {
   width: 226px;
   height: 21px;
-  margin-left: 30px;
-  top: ;
+  margin-left: 35px;
+  margin-top: -30px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
+#phone {
+  width: 262px;
+  height: 23px;
+  margin-top: -80px;
+}
 #number-icon {
+  /* left: 8.8%; */
+  /* right: 4.17%;
+  margin-left: 0px;
+  margin-top: 18px;
+  /* bottom: 8.63%; */
 }
-#number {
+/* #number {
+  width: 226px;
+  height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 30px;
+  margin-top: -30px;
 }
+#sub {
+  width: 320px;
+  height: 54px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+} */
+/* .newsletter {
+  width: 336px;
+  height: 40px;
+}
+#email {
+  width: 162px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #7a7a7a;
+
+  position: relative;
+  margin-left: 14px;
+} */ 

@@ -3,11 +3,16 @@
 .blog {
   width: 94%;
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   /* height: 1150px; */
 }
 #news {
   margin-bottom: 36px;
-  margin-left: 74px;
   margin-top: 17px;
   width: 202px;
   height: 26px;
@@ -135,6 +140,6 @@
 
 @media (min-width: 744px) {
   .aside-card {
-    flex-basis: calc(33% - 20px);
+    flex-basis: calc(33% - 10px);
   }
 }
