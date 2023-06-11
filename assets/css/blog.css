@@ -23,10 +23,22 @@
   line-height: 25px;
   text-align: center;
 }
-.group8 {
+.group19 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.aside-card {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 19px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.group8 {
   position: relative;
   width: 67px;
   height: 67px;
@@ -36,7 +48,7 @@
 }
 #day {
   position: relative;
-  top: -6px;
+  top: 10px;
   left: 16px;
   width: 33px;
   height: 40px;
@@ -50,8 +62,8 @@
 }
 #month {
   position: relative;
-  top: 14px;
-  left: -15px;
+  top: 0px;
+  left: 16px;
   width: 33px;
   height: 40px;
 
@@ -66,23 +78,24 @@
   position: relative;
   top: 156px;
   left: 19px;
-  width: 296px;
+  width: 100%;
   height: 88px;
 }
 #optimize {
-  width: 296px;
   height: 41px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+  width: 90%;
 }
 .shop-now2 {
   position: relative;
-  width: 116px;
+  width: 100%;
   height: 32px;
   top: 15px;
+  left: 0px;
 
   font-family: "Dosis";
   font-style: normal;
@@ -90,23 +103,7 @@
   font-size: 16px;
   line-height: 33px;
 
-  text-align: center;
   text-decoration-line: underline;
-}
-
-.group19 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.aside-card {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  height: 350px;
-  width: 100%;
-  margin-bottom: 19px;
 }
 
 .article1 {
@@ -121,25 +118,20 @@
 
 /* styling using media queries */
 @media (max-width: 540px) {
-  .nav-menu {
-    display: none;
-  }
   .aside-card {
     flex-basis: 100%;
   }
 }
-
 @media (min-width: 540px) and (max-width: 744px) {
-  .nav-menu {
-    display: none;
-  }
   .aside-card {
     flex-basis: calc(50% - 10px);
+    height: 330px;
   }
 }
 
 @media (min-width: 744px) {
   .aside-card {
     flex-basis: calc(33% - 10px);
+    height: 380px;
   }
 }

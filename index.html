@@ -26,7 +26,7 @@
       <div class="hero-header">
         <img src="assets/images/logo1.webp" alt="company logo" id="site_logo" />
         <div class="nav-menu">
-          <div class="Portfolio">
+          <div id="portfolio">
             <li color="white"><a href="">Portfolio</a></li>
           </div>
           <div id="blog">
@@ -69,23 +69,15 @@
       <div class="message">
         <div class="collection furniture-collection">
           <div class="group5">
-            <div class="new-collection">
-              <p>New Furniture Collection</p>
-            </div>
-            <div id="shop-now1">
-              <p>SHOP NOW</p>
-              <span id="dash"><hr /></span>
-            </div>
+            <p class="new-collection">New Furniture Collection</p>
+            <p id="shop-now1">SHOP NOW</p>
+            <!-- <span id="dash"><hr /></span> -->
           </div>
         </div>
         <div class="collection basket-collection">
           <div class="group5">
-            <div class="new-collection">
-              <p>New Basket Collection</p>
-            </div>
-            <div id="shop-now1">
-              <p>SHOP NOW</p>
-            </div>
+            <p class="new-collection">New Basket Collection</p>
+            <p id="shop-now1">SHOP NOW</p>
           </div>
         </div>
       </div>
@@ -210,25 +202,23 @@
             class="footer-img"
           />
           <div class="footer-address">
-            <span id="location">
-              <i data-feather="map-pin" id="map-pin"></i>
-            </span>
-            <p id="pin">194 Main Rd T, FS Rayed, USA</p>
-            <span id="mail">
-              <i data-feather="mail" id="mail-icon"></i>
-            </span>
-            <p id="info">info@tmart.org</p>
-            <span id="phone">
-              <i data-feather="phone-call" id="number-icon"></i>
-            </span>
+            <div id="location">
+              <i data-feather="map-pin" id="footer-icon"></i>
+              <p id="pin">194 Main Rd T, FS Rayed, USA</p>
+            </div>
+            <div id="mail">
+              <i data-feather="mail" id="footer-icon"></i>
+              <p id="info">info@tmart.org</p>
+            </div>
+            <div" id="phone">
+            <i data-feather="phone-call" id="footer-icon"></i>
             <p id="number">+233 244 244 244</p>
           </div>
         </div>
-
-        <div class="subscribe">
-          <p id="sub">
+        <div class="subscribe-new">
+          <h3 id="sub">
             Subscribe to our newsletter and get 10% off your first purchase
-          </p>
+          </h3>
           <div class="newsletter">
             <input
               id="holder"
@@ -237,21 +227,19 @@
               name="email"
               placeholder="Enter email address"
             />
-            <div class="group13">
+            <button type="button">
               <i data-feather="chevron-right" id="chevron"></i>
-            </div>
+            </button>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <span id="line"></span>
-        <div class="group14">
-          <span><i data-feather="copyright"></i></span>
-          <span id="tmart">Tmart - All rights reserved</span>
-        </div>
+      <hr class="hr_line" />
+      <div class="copyright-new">
+        <i data-feather="copyright"></i>
+        Tmart - All rights reserved
       </div>
     </footer>
-    <!-- add script for feather-icons -->
+    <!-- added script for feather-icons -->
     <script>
       feather.replace();
     </script>
