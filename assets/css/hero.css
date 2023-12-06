@@ -125,12 +125,6 @@ li a:hover {
 
   margin-top: 13px;
 }
-/* .wrapper {
-  width: 94%;
-  margin: 0 auto;
-  
-} */
-
 .message {
   width: 94%;
   margin: 0 auto;
@@ -139,7 +133,7 @@ li a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  /* flex-direction: column; */
+
   margin-top: 53px;
 }
 .furniture-collection {
@@ -156,8 +150,6 @@ li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* width: 100%; */
 }
 
 .new-collection {
@@ -193,12 +185,6 @@ li a:hover {
   text-align: center;
   text-decoration-line: underline;
 }
-/* #dash {
-  position: relative;
-  bottom: 18px;
-  width: 22px;
-  left: 90px;
-} */
 
 /* styling using media queries */
 
@@ -235,9 +221,9 @@ li a:hover {
   }
   .new-product {
     width: 396px;
-    
   }
   #shop-now1 {
     top: 20px;
   }
 }
+
